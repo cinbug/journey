@@ -1,0 +1,474 @@
+---
+title: "Game Development Notes"
+author: "Bug"
+date: "2023-03-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## A GAME DEVELOPMENT JOURNEY
+### An opportunity to divert my career path for something I desire
+
+It sounds a bit cliché, but since my childhood I dream of developing games somehow. Gaming world always fascinated me, but not as a competitive player. I have always been fascinated by the virtual world in which you have every opportunity to do whatever you want. I still remember the feeling when I first started to control Tommy Vercetti back in childhood. But, for whatever reason, I have been postponing to enter this world. Yesterday, after finishing It Takes Two with my girlfriend, I suddenly realized that it only takes reading a book to enter this world. And, this could be the opportunity of my life. Hence, I decided to read on this subject and stumbled upon this book: 2D Game Development: From Zero to Hero. I started reading it immediately, and decided to create this document to record my journey. Let’s see what future brings…
+
+
+## Reading Notes
+
+27 March 2023: This is the day in which I Googled game development seriously, found the book mentioned in the abstract and started to read it. The first thing I did was to go over the contents. I first skimmed through the main titles and then the first level subtitles. Luckily, I know many of the technical stuff, have some game development experience due to the C++ class I took at the university. I am lacking of game development concepts and point of view. Here, I will share the notes I took today. I will update my notes over time. 
+
+
+## 2D Game Development: From Zero to Hero
+
+### Foreword
+
+### Introduction
+
+#### Why another game development book?
+
+#### Conventions used in this book
+
+#### Structure of this book
+
+### The Maths Behind Game Development
+
+
+#### Some useful symbols
+
+#### The modulo operator
+
+#### Powers and Roots
+
+#### Equations
+
+#### Exponentiations and logarithms
+
+#### Limits
+
+#### Derivatives
+
+#### The Cartesian Plane
+
+#### Vectors
+
+#### Geometry
+
+#### Matrices
+
+#### Trigonometry
+
+#### Numerical Analysis
+
+#### Coordinate systems on computers
+
+#### Transformation Matrices
+
+#### Basics of Probability
+
+### Some Computer Science Fundamentals
+
+
+#### Number representations
+
+#### Basics of logic
+
+#### Algorithms
+
+#### Recursion
+
+#### Programming languages
+
+#### Computers are (not) precise
+
+#### Random numbers are not really random
+
+#### Estimating the complexity of algorithms
+
+#### A primer on calculating the order of your algorithms
+
+#### Simplifying your conditional with Karnaugh Maps
+
+#### Object Oriented Programming
+
+#### Designing entities as data
+
+#### Reading UML diagrams
+
+#### Generic programming
+
+#### Advanced containers
+
+#### Treating multidimensional structures like one-dimensional ones
+
+#### Data redundancy
+
+#### Introduction to multi-tasking
+
+#### Introduction to multi-threading
+
+### A Game Design Dictionary
+
+
+#### Platforms
+
+#### Input devices
+
+#### Game genres
+
+### Project Management Basics and tips
+
+
+#### The figures of game design and development
+
+#### Some general tips
+
+#### Common errors and pitfalls
+
+#### Software life cycle models
+
+#### Version control
+
+#### Metrics and dashboards
+
+### Writing a Game Design Document
+
+
+#### What is a game design document?
+
+#### Possible sections of a Game Design Documents
+
+#### Where to go from here?
+
+### The Game Loop
+
+
+#### The Input-Update-Draw Abstraction
+
+#### Input
+
+#### Timing your loop
+
+#### Issues and possible solutions
+
+#### Drawing to screen
+
+### Collision Detection and Reaction
+
+
+#### Why collision detection is done in multiple passes
+
+#### Narrow-Phase collision detection: did it really collide?
+
+#### Broad-phase collision detection: is collision even possible?
+
+#### Other collision detection methods
+
+#### Collision reaction/correction
+
+#### Common issues with time-steeping Collision Detection
+
+#### Separating Axis Theorem
+
+#### Ray Casting
+
+### Scene Trees
+
+
+#### What is a scene
+
+#### Scene trees and their functionalities
+
+#### Implementing a scene tree
+
+### Cameras
+
+
+#### Screen space vs. game space
+
+#### Most used camera types
+
+#### Clamping your camera position
+
+### Game Design Tips
+
+
+#### Tutorials
+
+#### Consolidating and refreshing the game mechanics
+
+#### Rewarding the player
+
+#### Loading screens
+
+#### Designing the story and gameplay flow
+
+#### Some game genres and their characteristics
+
+#### Tips and tricks
+
+#### Perceived fairness
+
+#### Miscellaneous
+
+### Creating your assets
+
+
+#### Assumptions
+
+#### Graphics
+
+#### Sounds and music
+
+#### Fonts
+
+#### Shaders
+
+### Design Patterns
+
+
+#### Creational design patterns
+
+#### Structural design patterns
+
+#### Behavioural design patterns
+
+#### Architectural design patterns
+
+### Useful Containers and Classes
+
+
+#### Resource manager
+
+#### Animator
+
+#### Finite state machine
+
+#### Menu stack
+
+#### Particle systems
+
+#### Timers
+
+#### Inbetweening
+
+#### Chaining
+
+### Artificial Intelligence in Videogames
+
+
+#### Path finding
+
+#### Finite state machines
+
+#### Decision trees
+
+#### Behaviour trees
+
+### Other Useful Algorithms
+
+
+#### World generation
+
+#### Dungeon generation
+
+#### Noise generation
+
+#### Animation
+
+### Procedural Content Generation
+
+
+#### What is procedural generation (and what it isn't)
+
+#### Advantages and disadvantages
+
+#### Where it can be used
+
+#### Procedural generation and difficulty management
+
+### Developing Game Mechanics
+
+
+#### General purpose
+
+#### 2D platformers
+
+#### Top-view RPG-like games
+
+#### Rhytym games
+
+#### "Bullet Hell" style games
+
+#### Match-x Games
+
+#### Cutscenes
+
+### Balancing Your Game
+
+
+#### Do not annoy the player
+
+#### Favour the player when possible
+
+#### Difficulty curves
+
+#### Economy
+
+#### A primer on cheating
+
+#### How cheating influences gameplay and enjoyability
+
+#### Cheating protection
+
+#### Some common exploits
+
+### Accessibility in video games
+
+
+#### What accessibility is and what it is not
+
+#### UI and HUD scaling
+
+#### Subtitles
+
+#### Mappable buttons
+
+#### Button toggling
+
+#### Dyslexia
+
+#### "Slow Mode"
+
+#### Colorblind mode
+
+#### No flasing lights
+
+#### No motion blur
+
+#### Reduced motion
+
+#### Assisted gameplay
+
+#### Controller support
+
+#### Some special cases
+
+### Testing your game
+
+
+#### When to test
+
+#### Mocking
+
+#### Types of testing
+
+#### Unit testing
+
+#### Integration testing
+
+#### Regression testing
+
+#### Playtesting
+
+### Profiling and optimization
+
+
+#### Profiling your game
+
+#### Optimizing your game
+
+#### Tips and tricks
+
+#### Non-optimizations
+
+### Marketing your game
+
+
+#### An Important Note: Keep your feet on the ground
+
+#### The importance of being consumer-friendly
+
+#### Pricing
+
+#### Managing hype
+
+#### Downloadable content
+
+#### Digital rights management (DRM)
+
+#### Free-to-play economies and lootboxes
+
+#### Assets and asset flips
+
+#### Crowdfunding
+
+#### Engagement vs. Fun
+
+#### Streamers and Content Creators
+
+### Keeping your players engaged
+
+
+#### Communities
+
+#### Replayability
+
+#### Transmogrification
+
+### Dissecting games: Three case studies
+
+
+#### A bad game: Hoshi wo miru hito
+
+#### The first good game - VVVVVV: Slim story and essential gameplay
+
+#### Another good game - Undertale: A masterclass in storytelling
+
+### Project Ideas
+
+
+#### Tic-Tac-Toe
+
+#### Space Invaders
+
+#### Breakout
+
+#### Shooter Arena
+
+### Game Jams
+
+
+#### Have Fun
+
+#### Stay healthy
+
+#### Stick to what you know
+
+#### Hacking is better than planning (But still plan ahead!)
+
+#### Graphics? Sounds? Music? FOCUS!
+
+#### Find creativity in limitations
+
+#### Involve your friends
+
+#### Write a post-mortem (and read some too!)
+
+#### Most common pitfalls in Game Jams
+
+### Where to go from here
+
+
+#### Collections of different topics
+
+#### Pixel art
+
+#### Sound Design
+
+#### Game design
+
+#### Game development
+
+#### References and Cheat Sheets
