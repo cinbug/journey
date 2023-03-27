@@ -2,114 +2,163 @@
 title: "Game Development Notes"
 author: "Bug"
 date: "2023-03-27"
-output: html_document
+output: 
+  html_document: 
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## A GAME DEVELOPMENT JOURNEY
-### An opportunity to divert my career path for something I desire
-
-It sounds a bit cliché, but since my childhood I dream of developing games somehow. Gaming world always fascinated me, but not as a competitive player. I have always been fascinated by the virtual world in which you have every opportunity to do whatever you want. I still remember the feeling when I first started to control Tommy Vercetti back in childhood. But, for whatever reason, I have been postponing to enter this world. Yesterday, after finishing It Takes Two with my girlfriend, I suddenly realized that it only takes reading a book to enter this world. And, this could be the opportunity of my life. Hence, I decided to read on this subject and stumbled upon this book: 2D Game Development: From Zero to Hero. I started reading it immediately, and decided to create this document to record my journey. Let’s see what future brings…
-
-
-## Reading Notes
-
-27 March 2023: This is the day in which I Googled game development seriously, found the book mentioned in the abstract and started to read it. The first thing I did was to go over the contents. I first skimmed through the main titles and then the first level subtitles. Luckily, I know many of the technical stuff, have some game development experience due to the C++ class I took at the university. I am lacking of game development concepts and point of view. Here, I will share the notes I took today. I will update my notes over time. 
 
 
 ## 2D Game Development: From Zero to Hero
 
 ### Foreword
+Didn't read.
 
 ### Introduction
+Didn't read.
 
 #### Why another game development book?
+Didn't read.
 
 #### Conventions used in this book
+Didn't read.
 
 #### Structure of this book
+Didn't read.
 
 ### The Maths Behind Game Development
-
+Mostly known.
 
 #### Some useful symbols
+Check.
 
 #### The modulo operator
+Known.
 
 #### Powers and Roots
+Known.
 
 #### Equations
+Known.
+
 
 #### Exponentiations and logarithms
+Known.
+
 
 #### Limits
+Known.
+
 
 #### Derivatives
+Known.
+
 
 #### The Cartesian Plane
+Known.
+
 
 #### Vectors
+Known.
+
 
 #### Geometry
+Known.
+
 
 #### Matrices
+Known.
+
 
 #### Trigonometry
+Known.
+
 
 #### Numerical Analysis
+Check.
 
 #### Coordinate systems on computers
+Check.
 
 #### Transformation Matrices
+Known.
 
 #### Basics of Probability
+Known.
 
 ### Some Computer Science Fundamentals
-
+Check.
 
 #### Number representations
+Check.
 
 #### Basics of logic
+Known.
 
 #### Algorithms
+Known.
 
 #### Recursion
+Known.
 
 #### Programming languages
+Known.
+
 
 #### Computers are (not) precise
+Known.
+
 
 #### Random numbers are not really random
+Known.
 
 #### Estimating the complexity of algorithms
+Known.
+
 
 #### A primer on calculating the order of your algorithms
+Known.
+
 
 #### Simplifying your conditional with Karnaugh Maps
+Check.
+
 
 #### Object Oriented Programming
+Known.
+
 
 #### Designing entities as data
+Check.
+
 
 #### Reading UML diagrams
+Known.
 
 #### Generic programming
+Check.
 
 #### Advanced containers
+Check.
 
 #### Treating multidimensional structures like one-dimensional ones
+Check.
 
 #### Data redundancy
+Check.
 
 #### Introduction to multi-tasking
+Check.
 
 #### Introduction to multi-threading
+Check.
 
 ### A Game Design Dictionary
-
+Check.
 
 #### Platforms
 
@@ -118,7 +167,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Game genres
 
 ### Project Management Basics and tips
-
+Check.
 
 #### The figures of game design and development
 
@@ -133,7 +182,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Metrics and dashboards
 
 ### Writing a Game Design Document
-
+Check.
 
 #### What is a game design document?
 
@@ -142,7 +191,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Where to go from here?
 
 ### The Game Loop
-
+Check.
 
 #### The Input-Update-Draw Abstraction
 
@@ -155,7 +204,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Drawing to screen
 
 ### Collision Detection and Reaction
-
+Check.
 
 #### Why collision detection is done in multiple passes
 
@@ -174,7 +223,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Ray Casting
 
 ### Scene Trees
-
+Check.
 
 #### What is a scene
 
@@ -183,7 +232,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Implementing a scene tree
 
 ### Cameras
-
+Check.
 
 #### Screen space vs. game space
 
@@ -192,7 +241,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Clamping your camera position
 
 ### Game Design Tips
-
+Check.
 
 #### Tutorials
 
@@ -213,7 +262,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Miscellaneous
 
 ### Creating your assets
-
+Check.
 
 #### Assumptions
 
@@ -226,7 +275,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Shaders
 
 ### Design Patterns
-
+Check.
 
 #### Creational design patterns
 
@@ -237,7 +286,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Architectural design patterns
 
 ### Useful Containers and Classes
-
+Check.
 
 #### Resource manager
 
@@ -256,7 +305,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Chaining
 
 ### Artificial Intelligence in Videogames
-
+Check.
 
 #### Path finding
 
@@ -267,7 +316,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Behaviour trees
 
 ### Other Useful Algorithms
-
+Check.
 
 #### World generation
 
@@ -278,7 +327,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Animation
 
 ### Procedural Content Generation
-
+Check.
 
 #### What is procedural generation (and what it isn't)
 
@@ -289,7 +338,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Procedural generation and difficulty management
 
 ### Developing Game Mechanics
-
+Check.
 
 #### General purpose
 
@@ -306,7 +355,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Cutscenes
 
 ### Balancing Your Game
-
+Check.
 
 #### Do not annoy the player
 
@@ -325,7 +374,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Some common exploits
 
 ### Accessibility in video games
-
+Check.
 
 #### What accessibility is and what it is not
 
@@ -356,7 +405,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Some special cases
 
 ### Testing your game
-
+Check.
 
 #### When to test
 
@@ -373,7 +422,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Playtesting
 
 ### Profiling and optimization
-
+Somehow known.
 
 #### Profiling your game
 
@@ -384,7 +433,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Non-optimizations
 
 ### Marketing your game
-
+Check.
 
 #### An Important Note: Keep your feet on the ground
 
@@ -409,7 +458,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Streamers and Content Creators
 
 ### Keeping your players engaged
-
+Check.
 
 #### Communities
 
@@ -418,7 +467,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Transmogrification
 
 ### Dissecting games: Three case studies
-
+Check.
 
 #### A bad game: Hoshi wo miru hito
 
@@ -427,7 +476,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Another good game - Undertale: A masterclass in storytelling
 
 ### Project Ideas
-
+Check.
 
 #### Tic-Tac-Toe
 
@@ -438,7 +487,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Shooter Arena
 
 ### Game Jams
-
+Check.
 
 #### Have Fun
 
@@ -459,7 +508,7 @@ It sounds a bit cliché, but since my childhood I dream of developing games some
 #### Most common pitfalls in Game Jams
 
 ### Where to go from here
-
+Check.
 
 #### Collections of different topics
 
